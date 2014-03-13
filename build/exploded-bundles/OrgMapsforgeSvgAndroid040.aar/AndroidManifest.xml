@@ -1,0 +1,4 @@
+<!-- From: file:/C:/Users/vkandroidstudioadm/mapsforge/svg-android/AndroidManifest.xml -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="40" package="com.applantation.android.svg">
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="19"/>
+</manifest>

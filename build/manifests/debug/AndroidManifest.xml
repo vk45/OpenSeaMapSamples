@@ -1,0 +1,54 @@
+<!-- From: file:/C:/Users/vkandroidstudioadm/mapsforge/Applications/Android/Samples/AndroidManifest.xml -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" android:versionCode="40" android:versionName="0.4.0-SNAPSHOT" package="org.mapsforge.applications.android.samples">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="19"/>
+    <application android:allowBackup="true" android:hardwareAccelerated="false" android:label="Samples" android:name="org.mapsforge.applications.android.samples.SamplesApplication">
+
+        <activity android:label="Samples" android:name="org.mapsforge.applications.android.samples.Samples">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="OSEAMapViewer01" android:name="org.mapsforge.applications.android.samples.OSEAMapViewer01"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="OSEAMapViewer02" android:name="org.mapsforge.applications.android.samples.OSEAMapViewer02"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="FilePicker" android:name="org.mapsforge.applications.android.samples.FilePicker"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="OSEAOnlineMapViewer01" android:name="org.mapsforge.applications.android.samples.OSEAOnlineMapViewer01"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="BasicMapViewer" android:name="org.mapsforge.applications.android.samples.BasicMapViewer"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="BasicMapViewerXml" android:name="org.mapsforge.applications.android.samples.BasicMapViewerXml"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="DownloadLayerViewer" android:name="org.mapsforge.applications.android.samples.DownloadLayerViewer"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="DiagnosticsMapViewer" android:name="org.mapsforge.applications.android.samples.DiagnosticsMapViewer"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="RenderThemeMapViewer" android:name="org.mapsforge.applications.android.samples.RenderThemeMapViewer"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="AssetsRenderThemeMapViewer" android:name="org.mapsforge.applications.android.samples.AssetsRenderThemeMapViewer"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="SVGAssetsRenderThemeMapViewer" android:name="org.mapsforge.applications.android.samples.SVGAssetsRenderThemeMapViewer"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="Automatically changes between renderthemes on SDCard" android:name="org.mapsforge.applications.android.samples.RenderThemeChanger"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="OverlayMapViewer" android:name="org.mapsforge.applications.android.samples.OverlayMapViewer"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="Zooms to map bounds of overlay" android:name="org.mapsforge.applications.android.samples.ZoomToBounds"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="OverlayWithoutBaseMapViewer" android:name="org.mapsforge.applications.android.samples.OverlayWithoutBaseMapViewer"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="Create and delete circles with long press" android:name="org.mapsforge.applications.android.samples.LongPressAction"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="Long press triggers animation to point" android:name="org.mapsforge.applications.android.samples.MoveAnimation"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="Bitmaps automatically change" android:name="org.mapsforge.applications.android.samples.ChangingBitmaps"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="LocationOverlayMapViewer" android:name="org.mapsforge.applications.android.samples.LocationOverlayMapViewer"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="Information bubbles" android:name="org.mapsforge.applications.android.samples.BubbleOverlay"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="Show two maps at the same time" android:name="org.mapsforge.applications.android.samples.DualMapViewer"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="Two views with different DisplayModels" android:name="org.mapsforge.applications.android.samples.DualMapViewerWithDifferentDisplayModels"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="Show two maps linked in position movements" android:name="org.mapsforge.applications.android.samples.DualMapnikMapViewer"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="Show a little overview map at different zoom level" android:name="org.mapsforge.applications.android.samples.DualOverviewMapViewer"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="Multiple layers generated from same map" android:name="org.mapsforge.applications.android.samples.StackedLayersMapViewer"/>
+        <activity android:label="Fragments Item List" android:name="org.mapsforge.applications.android.samples.ItemListActivity" android:parentActivityName="org.mapsforge.applications.android.samples.Samples">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="org.mapsforge.applications.android.samples.Samples"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="Fragments Item Details" android:name="org.mapsforge.applications.android.samples.ItemDetailActivity" android:parentActivityName="org.mapsforge.applications.android.samples.ItemListActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".ItemListActivity"/>
+        </activity>
+        <activity android:label="Settings" android:name="org.mapsforge.applications.android.samples.Settings" android:parentActivityName="org.mapsforge.applications.android.samples.Samples">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".Samples"/>
+        </activity>
+
+    </application>
+
+</manifest>

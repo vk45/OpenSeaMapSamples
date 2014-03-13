@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/vkandroidstudioadm/mapsforge/Applications/Android/Samples/res/values-large/refs.xml -->
+    <eat-comment />
+
+    <item name="activity_item_list" type="layout">@layout/activity_item_twopane</item>
+
+</resources>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="OrgMapsforgeSvgAndroid040.aar" >
+        <source path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\build\exploded-bundles\OrgMapsforgeSvgAndroid040.aar\res" />
+    </dataSet>
+    <dataSet config="OrgMapsforgeMapsforgeMapAndroid040.aar" >
+        <source path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\build\exploded-bundles\OrgMapsforgeMapsforgeMapAndroid040.aar\res" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res" >
+            <file
+                name="balloon_overlay_unfocused"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\drawable-hdpi\balloon_overlay_unfocused.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="file_picker_back"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\drawable-hdpi\file_picker_back.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="file_picker_file"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\drawable-hdpi\file_picker_file.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="file_picker_folder"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\drawable-hdpi\file_picker_folder.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_preferences"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\drawable-hdpi\ic_menu_preferences.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="marker_green"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\drawable-hdpi\marker_green.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="marker_red"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\drawable-hdpi\marker_red.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="balloon_overlay_unfocused"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\drawable-mdpi\balloon_overlay_unfocused.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_preferences"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\drawable-mdpi\ic_menu_preferences.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="marker_green"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\drawable-mdpi\marker_green.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="marker_red"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\drawable-mdpi\marker_red.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="activity_file_picker"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\layout\activity_file_picker.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_item_detail"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\layout\activity_item_detail.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_item_list"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\layout\activity_item_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_item_twopane"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\layout\activity_item_twopane.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_samples"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\layout\activity_samples.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_enter_coordinates"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\layout\dialog_enter_coordinates.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dualmapviewer"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\layout\dualmapviewer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dualoverviewmapviewer"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\layout\dualoverviewmapviewer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_item_detail"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\layout\fragment_item_detail.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="mapviewer"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\layout\mapviewer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="options_menu"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\menu\options_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\values\arrays.xml"
+                qualifiers="" >
+                <string-array name="pref_scale_entries" >
+                    <item>
+Small
+                    </item>
+                    <item>
+Normal
+                    </item>
+                    <item>
+Large
+                    </item>
+                    <item>
+Extra Large
+                    </item>
+                </string-array>
+                <string-array name="pref_scale_values" >
+                    <item>
+0.7
+                    </item>
+                    <item>
+1.0
+                    </item>
+                    <item>
+1.5
+                    </item>
+                    <item>
+2
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\values\strings.xml"
+                qualifiers="" >
+                <string name="startup_dontshowagain" >Don\'t show again
+                </string>
+                <string name="longitude" >Longitude
+                </string>
+                <string name="latitude" >Latitude
+                </string>
+                <string name="zoomlevel" >Zoom Level
+                </string>
+                <string name="preferences_scale_desc" >Adjust scale of the map display
+                </string>
+                <string name="menu_select_mapfile" >select map file
+                </string>
+                <string name="cancelbutton" >Cancel
+                </string>
+                <string name="cancel" >Cancel
+                </string>
+                <string name="dialog_location_title" >Coordinates
+                </string>
+                <string name="startup_message" >To run this samples app, you need a map called germany.map installed on the sdcard.
+                </string>
+                <string name="file_invalid" >The selected file is invalid.
+                </string>
+                <string name="ok" >OK
+                </string>
+                <string name="menu_select_renderfile" >select render theme  file
+                </string>
+                <string name="preferences_scale" >Display Scale
+                </string>
+                <string name="error_last_location_unknown" >The last location is unknown
+                </string>
+                <string name="menu_preferences" >Settings
+                </string>
+                <string name="error" >Error
+                </string>
+                <string name="okbutton" >OK
+                </string>
+                <string name="file_select" >Please select a file.
+                </string>
+                <string name="copyright_osm" >Map data © OpenStreetMap contributors
+                </string>
+                <string name="menu_position_enter_coordinates" >Map Position
+                </string>
+            </file>
+            <file
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\values-large\refs.xml"
+                qualifiers="large" >
+                <item
+                    name="activity_item_list"
+                    type="layout">
+@layout/activity_item_twopane
+                </item>
+            </file>
+            <file
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\values-sw600dp\refs.xml"
+                qualifiers="sw600dp" >
+                <item
+                    name="activity_item_list"
+                    type="layout">
+@layout/activity_item_twopane
+                </item>
+            </file>
+            <file
+                name="preferences"
+                path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\res\xml\preferences.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+        <source path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\build\res\rs\debug" />
+        <source path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\build\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\vkandroidstudioadm\mapsforge\Applications\Android\Samples\src\debug\res" />
+    </dataSet>
+
+</merger>

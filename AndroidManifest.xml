@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="org.mapsforge.applications.android.samples"
+          android:installLocation="auto"
+          android:versionCode="40"
+          android:versionName="0.4.0-SNAPSHOT" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+    <application
+        android:name=".SamplesApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:label="OSeaMSamples"
+        android:icon="@drawable/ic_viewer" >
+
+        <activity
+            android:name=".Samples"
+            android:label="OpenSeaMapSamples" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OSEAMapViewer01"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="OSEAMapViewer01" />
+        <activity
+            android:name=".OSEAMapViewerWithSeamarks"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="OSEAMapViewer02" />
+        <activity
+            android:name=".FilePicker"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="FilePicker" />
+        <activity
+            android:name=".OSEAOnlineMapViewer01"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="OSEAOnlineMapViewer01" />
+        
+        <activity
+            android:name=".OSEADualMapViewerWithSeamarks"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="OSEADualMapViewerWithSeamarks" />
+        <activity
+            android:name=".OSEAOffLineOnlineMapViewer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="OSEAOffLineOnlineMapViewer" />
+        <activity
+            android:name=".OpenSeaMapOnlineMapViewCompassDemo"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="OpenSeaMapOnlineMapViewCompassDemo" />
+        <activity
+            android:name=".OpenSeaMapViewerCompassDemo"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label=" OpenSeaMapViewerCompassDemo" />
+        
+        
+        
+        
+      
+       
+       
+        <activity
+            android:name=".BasicMapViewer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="BasicMapViewer" />
+        <activity
+            android:name=".BasicMapViewerXml"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="BasicMapViewerXml" />
+        <activity
+            android:name=".DownloadLayerViewer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="DownloadLayerViewer" />
+        <activity
+            android:name=".DiagnosticsMapViewer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="DiagnosticsMapViewer" />
+        <activity
+            android:name=".RenderThemeMapViewer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="RenderThemeMapViewer" />
+        <activity
+            android:name=".AssetsRenderThemeMapViewer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="AssetsRenderThemeMapViewer" />
+        <activity
+            android:name=".SVGAssetsRenderThemeMapViewer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="SVGAssetsRenderThemeMapViewer" />
+        <activity
+            android:name=".RenderThemeChanger"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Automatically changes between renderthemes on SDCard" />
+        <activity
+            android:name=".OverlayMapViewer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="OverlayMapViewer" />
+        <activity
+            android:name=".ZoomToBounds"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Zooms to map bounds of overlay" />
+        <activity
+            android:name=".OverlayWithoutBaseMapViewer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="OverlayWithoutBaseMapViewer" />
+        <activity
+            android:name=".LongPressAction"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Create and delete circles with long press" />
+        <activity
+            android:name=".MoveAnimation"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Long press triggers animation to point" />
+        <activity
+            android:name=".ChangingBitmaps"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Bitmaps automatically change" />
+        <activity
+            android:name=".LocationOverlayMapViewer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="LocationOverlayMapViewer" />
+        <activity
+            android:name=".BubbleOverlay"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Information bubbles" />
+        <activity
+            android:name=".DualMapViewer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Show two maps at the same time" />
+        <activity
+            android:name=".DualMapViewerWithDifferentDisplayModels"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Two views with different DisplayModels" />
+        <activity
+            android:name=".DualMapnikMapViewer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Show two maps linked in position movements" />
+        <activity
+            android:name=".DualOverviewMapViewer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Show a little overview map at different zoom level" />
+        <activity
+            android:name=".StackedLayersMapViewer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Multiple layers generated from same map" />
+        <activity
+            android:name=".ItemListActivity"
+            android:label="Fragments Item List"
+            android:parentActivityName="org.mapsforge.applications.android.samples.Samples" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.mapsforge.applications.android.samples.Samples" />
+        </activity>
+        <activity
+            android:name=".ItemDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Fragments Item Details"
+            android:parentActivityName=".ItemListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemListActivity" />
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:label="Settings"
+            android:parentActivityName=".Samples" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Samples" />
+        </activity>
+
+    </application>
+
+</manifest>
